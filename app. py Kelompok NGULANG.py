@@ -26,7 +26,6 @@ if menu == "Beranda":
 
     """, unsafe_allow_html=True)
 
-    st.image(
         "https://cdn.pixabay.com/photo/2020/03/17/03/32/laboratory-4936936_960_720.png",
         use_container_width=True
     )
