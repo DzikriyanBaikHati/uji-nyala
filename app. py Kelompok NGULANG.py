@@ -40,10 +40,10 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "orange",
         "Tembaga (Cu)": "turquoise",
         "Stronsium (Sr)": "red",
-        "Barium (Ba)": "silver",
-        "Litium (Li)": "merah crimsom",
-        "Rubidium (Rb)": "ungu merah",
-        "Sesium (Cs)": "Blue"
+        "Barium (Ba)": "#7CFC00",
+        "Litium (Li)": "#DC143C",
+        "Rubidium (Rb)": "#C71585",
+        "Sesium (Cs)": "#6A5ACD"
     }
 
     penjelasan = {
@@ -51,7 +51,11 @@ elif menu == "Uji Nyala":
         "Kalium (K)": "🔬 Kalium memancarkan warna ungu muda karena transisi elektron pada panjang gelombang sekitar 766 nm.",
         "Kalsium (Ca)": "🔬 Warna jingga berasal dari eksitasi elektron kalsium, memancarkan cahaya sekitar 622 nm.",
         "Tembaga (Cu)": "🔬 Tembaga menghasilkan warna hijau kebiruan karena elektron memancarkan cahaya sekitar 510–520 nm.",
-        "Stronsium (Sr)": "🔬 Warna merah terang berasal dari transisi elektron stronsium di sekitar 606–670 nm."
+        "Stronsium (Sr)": "🔬 Warna merah terang berasal dari transisi elektron stronsium di sekitar 606–670 nm.",
+        "Barium (Ba)": "🔬 Barium menghasilkan warna hijau apel yang sangat terang karena eksitasi elektron pada panjang gelombang sekitar 524 nm.",
+        "Litium (Li)":"🔬 Litium menghasilkan warna merah crimson akibat transisi elektron pada panjang gelombang sekitar 670 nm.",
+        "Rubidium (Rb)":"🔬 Rubidium memancarkan warna merah keunguan yang khas saat dipanaskan dalam nyala api.",
+        "Sesium (Cs)":"🔬 Sesium menghasilkan warna biru keunguan yang jarang ditemukan pada uji nyala logam."
     }
 
     if st.button("🔬 Mulai Uji Nyala"):
