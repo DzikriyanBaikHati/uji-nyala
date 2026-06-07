@@ -69,7 +69,7 @@ if menu == "Beranda":
 
     st.markdown("""
     <div class="card">
-    <h3>🔬 2A LPK MENYENANGKAN - MARI BELAJAR KIMIA</h3>
+    <h3>🔬 2A LPK MENYENANGKAN - MARI LPK TERCINTA</h3>
 
     Aplikasi ini berisi simulasi:
 
