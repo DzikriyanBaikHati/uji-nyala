@@ -77,7 +77,7 @@ penjelasan = {
         "Rubidium (Rb)": "🔬 Rubidium menghasilkan warna merah keunguan karena panjang gelombang sekitar 780 nm."
     }
     
-     if st.button("🔬 Mulai Uji Nyala"):
+ if st.button("🔬 Mulai Uji Nyala"):
         st.success(f"✅ Warna nyala: **{warna_teks[logam]}**")
         st.info(penjelasan[logam])
 
