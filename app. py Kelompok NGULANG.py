@@ -247,15 +247,3 @@ Titrasi asam-basa adalah metode untuk menentukan konsentrasi suatu larutan asam 
 
     # Progress bar pH
     st.progress(min(int((ph / 14) * 100), 100))
-st.markdown(f"""
-<div class="card">
-
-### 📋 Data Spektrum
-
-- Unsur : {logam}
-- Warna : {warna_teks[logam]}
-- Status : Aktif
-- Metode : Flame Test
-
-</div>
-""", unsafe_allow_html=True)
