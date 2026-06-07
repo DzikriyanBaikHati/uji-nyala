@@ -37,7 +37,7 @@ elif menu == "Uji Nyala":
     warna_api = {
         "Natrium (Na)": "gold",
         "Kalium (K)": "violet",
-        "Kalsium (Ca)": "hitam",
+        "Kalsium (Ca)": "orange",
         "Tembaga (Cu)": "turquoise",
         "Stronsium (Sr)": "red",
         "Barium (Ba)": "silver",
