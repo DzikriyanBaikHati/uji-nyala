@@ -138,14 +138,10 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "🔬 Warna jingga berasal dari eksitasi elektron kalsium, memancarkan cahaya sekitar 622 nm.",
         "Tembaga (Cu)": "🔬 Tembaga menghasilkan warna hijau kebiruan karena elektron memancarkan cahaya sekitar 510–520 nm.",
         "Stronsium (Sr)": "🔬 Warna merah terang berasal dari transisi elektron stronsium di sekitar 606–670 nm."
-    "Barium (Ba)":
-    "🔬 Barium menghasilkan warna hijau apel yang sangat terang karena eksitasi elektron pada panjang gelombang sekitar 524 nm.",
-    "Litium (Li)":
-    "🔬 Litium menghasilkan warna merah crimson akibat transisi elektron pada panjang gelombang sekitar 670 nm.",
-    "Rubidium (Rb)":
-    "🔬 Rubidium memancarkan warna merah keunguan yang khas saat dipanaskan dalam nyala api.",
-    "Sesium (Cs)":
-    "🔬 Sesium menghasilkan warna biru keunguan yang jarang ditemukan pada uji nyala logam."
+        "Barium (Ba)":"🔬 Barium menghasilkan warna hijau apel yang sangat terang karena eksitasi elektron pada panjang gelombang sekitar 524 nm.",
+        "Litium (Li)":"🔬 Litium menghasilkan warna merah crimson akibat transisi elektron pada panjang gelombang sekitar 670 nm.",
+        "Rubidium (Rb)":"🔬 Rubidium memancarkan warna merah keunguan yang khas saat dipanaskan dalam nyala api.",
+        "Sesium (Cs)":"🔬 Sesium menghasilkan warna biru keunguan yang jarang ditemukan pada uji nyala logam."
 }
 
     if st.button("🔬 Mulai Uji Nyala"):
