@@ -10,7 +10,7 @@ menu = st.sidebar.selectbox(
 if menu == "Beranda":
 
     st.markdown(
-        '<p class="main-title">🧪 CHEMLAB INTERACTIVE</p>',
+        '<p class="main-title">🧪 ChemLearN Hub</p>',
         unsafe_allow_html=True
     )
 
