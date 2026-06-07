@@ -13,22 +13,47 @@ st.markdown("""
 
 .stApp{
     background: linear-gradient(
-        180deg,
-        #ffffff,
-        #f8fafc,
-        #f1f5f9
-    );
+    135deg,
+    #0f172a,
+    #1e293b,
+    #111827);
 }
 
-.main-title{
-    text-align:center;
-    font-size:55px;
-    font-weight:bold;
-    background: linear-gradient(90deg,#38bdf8,#22c55e,#f97316);
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+/* Semua teks menjadi putih */
+html, body, p, h1, h2, h3, h4, h5, h6,
+label, span, div {
+    color: white !important;
 }
 
+/* Markdown */
+[data-testid="stMarkdownContainer"] {
+    color: white !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* Label input */
+.stSelectbox label,
+.stSlider label,
+.stNumberInput label {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Metric */
+[data-testid="stMetricLabel"] {
+    color: white !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #38bdf8 !important;
+    font-weight: bold;
+}
+
+/* Card */
 .card{
     background: rgba(255,255,255,0.08);
     backdrop-filter: blur(15px);
@@ -36,11 +61,26 @@ st.markdown("""
     border-radius:20px;
     border:1px solid rgba(255,255,255,0.2);
     margin-bottom:20px;
+    color:white;
 }
 
 .card:hover{
     transform:scale(1.02);
     transition:0.3s;
+}
+
+.main-title{
+    text-align:center;
+    font-size:55px;
+    font-weight:bold;
+    background: linear-gradient(
+        90deg,
+        #38bdf8,
+        #22c55e,
+        #f97316
+    );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .badge{
