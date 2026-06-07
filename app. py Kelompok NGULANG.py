@@ -8,33 +8,10 @@ menu = st.sidebar.selectbox(
 
 # --- Menu BERANDA ---
 if menu == "Beranda":
-
-    st.markdown(
-        '<p class="main-title">🧪 CHEMLAB INTERACTIVE</p>',
-        unsafe_allow_html=True
-    )
-
-    st.markdown("""
-    <div class="card">
-    <h3>🔬 KELOMPOK 2A</h3>
-
-    Aplikasi ini berisi simulasi:
-
-    • 🔥 Uji Nyala Logam
-
-    • ⚗️ Titrasi Asam Basa
-
-    """, unsafe_allow_html=True)
-
-        "https://cdn.pixabay.com/photo/2020/03/17/03/32/laboratory-4936936_960_720.png",
-        use_container_width=True
-    )
-
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric("Eksperimen", "2")
-    col2.metric("Kelompok", "2")
-    col3.metric("Versi", "2.0")
+    st.title("🔬 Selamat Datang di Aplikasi Kimia Interaktif")
+    st.subheader("🧪2A LPK KUHH") #
+    st.write("Silakan pilih menu di sebelah kiri untuk memulai.")
+    st.image("https://cdn.pixabay.com/photo/2020/03/17/03/32/laboratory-4936936_960_720.png", width=400)
 
 # --- Menu UJI NYALA ---
 elif menu == "Uji Nyala":
@@ -143,7 +120,7 @@ Titrasi asam-basa adalah metode untuk menentukan konsentrasi suatu larutan asam 
     ph = round(ph, 1)
 
     st.metric("📊 pH Simulasi", f"{ph}")
-  
+
     # Penjelasan otomatis
     if ph < 7:
         warna = "red"
