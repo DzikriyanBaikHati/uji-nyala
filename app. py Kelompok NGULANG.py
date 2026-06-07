@@ -1,4 +1,57 @@
 import streamlit as st
+import streamlit as st
+
+st.set_page_config(
+    page_title="ChemLearN Hub",
+    page_icon="🧪",
+    layout="wide"
+)
+
+st.markdown("""
+<style>
+
+.stApp{
+    background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #111827);
+    color:white;
+}
+
+.main-title{
+    text-align:center;
+    font-size:55px;
+    font-weight:bold;
+    background: linear-gradient(90deg,#38bdf8,#22c55e,#f97316);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.card{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    padding:25px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.2);
+    margin-bottom:20px;
+}
+
+.card:hover{
+    transform:scale(1.02);
+    transition:0.3s;
+}
+
+.badge{
+    background:#22c55e;
+    padding:5px 12px;
+    border-radius:20px;
+    color:white;
+    font-weight:bold;
+}
+
+</style>
+""", unsafe_allow_html=True)
 
 # Sidebar Menu
 menu = st.sidebar.selectbox(
@@ -16,7 +69,7 @@ if menu == "Beranda":
 
     st.markdown("""
     <div class="card">
-    <h3>🔬 Kelompok 2 - Kimia Dasar</h3>
+    <h3>🔬 Kelompok 2A - Kimia Dasar</h3>
 
     Aplikasi ini berisi simulasi:
 
@@ -35,16 +88,26 @@ if menu == "Beranda":
     col1, col2, col3 = st.columns(3)
 
     col1.metric("Eksperimen", "2")
-    col2.metric("Kelompok", "2")
+    col2.metric("Kelompok", "2A")
     col3.metric("Versi", "2.0")
 # --- Menu UJI NYALA ---
 elif menu == "Uji Nyala":
     st.header("🔥 Uji Nyala Logam")
 
-    logam = st.selectbox("Pilih logam yang diuji:", [
-        "Natrium (Na)", "Kalium (K)", "Kalsium (Ca)",
-        "Tembaga (Cu)", "Stronsium (Sr)"
-    ])
+    logam = st.selectbox(
+    "Pilih logam yang diuji:",
+    [
+        "Natrium (Na)",
+        "Kalium (K)",
+        "Kalsium (Ca)",
+        "Tembaga (Cu)",
+        "Stronsium (Sr)",
+        "Barium (Ba)",
+        "Litium (Li)",
+        "Rubidium (Rb)",
+        "Sesium (Cs)"
+    ]
+)
 
     warna_teks = {
         "Natrium (Na)": "Kuning terang",
@@ -52,7 +115,11 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "Jingga",
         "Tembaga (Cu)": "Hijau kebiruan",
         "Stronsium (Sr)": "Merah menyala"
-    }
+    "Barium (Ba)": "Hijau Apel",
+    "Litium (Li)": "Merah Crimson",
+    "Rubidium (Rb)": "Merah Ungu",
+    "Sesium (Cs)": "Biru Ungu"
+})
 
     warna_api = {
         "Natrium (Na)": "gold",
@@ -60,7 +127,11 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "orange",
         "Tembaga (Cu)": "turquoise",
         "Stronsium (Sr)": "red"
-    }
+    "Barium (Ba)": "#7CFC00",
+    "Litium (Li)": "#DC143C",
+    "Rubidium (Rb)": "#C71585",
+    "Sesium (Cs)": "#6A5ACD"
+})
 
     penjelasan = {
         "Natrium (Na)": "🔬 Elektron natrium tereksitasi dan kembali ke keadaan dasar, memancarkan cahaya kuning di sekitar 589 nm.",
@@ -68,7 +139,15 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "🔬 Warna jingga berasal dari eksitasi elektron kalsium, memancarkan cahaya sekitar 622 nm.",
         "Tembaga (Cu)": "🔬 Tembaga menghasilkan warna hijau kebiruan karena elektron memancarkan cahaya sekitar 510–520 nm.",
         "Stronsium (Sr)": "🔬 Warna merah terang berasal dari transisi elektron stronsium di sekitar 606–670 nm."
-    }
+    "Barium (Ba)":
+    "🔬 Barium menghasilkan warna hijau apel yang sangat terang karena eksitasi elektron pada panjang gelombang sekitar 524 nm.",
+    "Litium (Li)":
+    "🔬 Litium menghasilkan warna merah crimson akibat transisi elektron pada panjang gelombang sekitar 670 nm.",
+    "Rubidium (Rb)":
+    "🔬 Rubidium memancarkan warna merah keunguan yang khas saat dipanaskan dalam nyala api.",
+    "Sesium (Cs)":
+    "🔬 Sesium menghasilkan warna biru keunguan yang jarang ditemukan pada uji nyala logam."
+})
 
     if st.button("🔬 Mulai Uji Nyala"):
         st.success(f"✅ Warna nyala: **{warna_teks[logam]}**")
