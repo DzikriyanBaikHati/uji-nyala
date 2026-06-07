@@ -43,7 +43,7 @@ elif menu == "Uji Nyala":
         "Barium (Ba)": "silver",
         "Litium (Li)": "merah crimsom",
         "Rubidium (Rb)": "ungu merah",
-        "Sesium (Cs)": "Blue Red"
+        "Sesium (Cs)": "Blue"
     }
 
     penjelasan = {
