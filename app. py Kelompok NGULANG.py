@@ -25,7 +25,7 @@ elif menu == "Uji Nyala":
     warna_teks = {
         "Natrium (Na)": "Kuning terang",
         "Kalium (K)": "Ungu muda",
-        "Kalsium (Ca)": "Hitam",
+        "Kalsium (Ca)": "Jingga",
         "Tembaga (Cu)": "Hijau kebiruan",
         "Stronsium (Sr)": "Merah menyala",
         "Barium (Ba)": "Hijau Apel",
@@ -37,7 +37,7 @@ elif menu == "Uji Nyala":
     warna_api = {
         "Natrium (Na)": "gold",
         "Kalium (K)": "violet",
-        "Kalsium (Ca)": "orange",
+        "Kalsium (Ca)": "hitam",
         "Tembaga (Cu)": "turquoise",
         "Stronsium (Sr)": "red",
         "Barium (Ba)": "silver",
