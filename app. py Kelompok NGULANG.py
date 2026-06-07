@@ -16,7 +16,7 @@ if menu == "Beranda":
     st.subheader("🧪 1A Kelompok 2")
     st.write("Selamat datang di aplikasi pembelajaran kimia interaktif berbasis web. Di sini, kamu bisa memahami konsep **Uji Nyala Logam** dan **Titrasi Asam-Basa** melalui simulasi dan visualisasi yang menyenangkan!")
 
- st.markdown("---")
+    st.markdown("---")
 
     st.subheader("🔥 Apa itu Uji Nyala?")
     st.write("""
