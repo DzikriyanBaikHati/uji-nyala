@@ -16,7 +16,7 @@ if menu == "Beranda":
 
     st.markdown("""
     <div class="card">
-    <h3>🔬 Kelompok 2 - Kimia Dasar</h3>
+    <h3>🔬 LPK 2A MENYENANGKAN - MARI BELAJAR KIMIA</h3>
 
     Aplikasi ini berisi simulasi:
 
