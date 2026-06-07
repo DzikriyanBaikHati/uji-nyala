@@ -13,11 +13,12 @@ st.markdown("""
 
 .stApp{
     background: linear-gradient(
-    135deg,
-    #0f172a,
-    #1e293b,
-    #111827);
-    color:White;
+        135deg,
+        #2b0000,
+        #5a0000,
+        #8b0000,
+        #b22222
+    );
 }
 
 .main-title{
