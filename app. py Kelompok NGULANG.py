@@ -17,7 +17,7 @@ st.markdown("""
     #0f172a,
     #1e293b,
     #111827);
-    color:white;
+    color:Blue;
 }
 
 .main-title{
