@@ -118,7 +118,7 @@ elif menu == "Uji Nyala":
     "Litium (Li)": "Merah Crimson",
     "Rubidium (Rb)": "Merah Ungu",
     "Sesium (Cs)": "Biru Ungu"
-})
+}
 
     warna_api = {
         "Natrium (Na)": "gold",
@@ -130,7 +130,7 @@ elif menu == "Uji Nyala":
     "Litium (Li)": "#DC143C",
     "Rubidium (Rb)": "#C71585",
     "Sesium (Cs)": "#6A5ACD"
-})
+}
 
     penjelasan = {
         "Natrium (Na)": "🔬 Elektron natrium tereksitasi dan kembali ke keadaan dasar, memancarkan cahaya kuning di sekitar 589 nm.",
