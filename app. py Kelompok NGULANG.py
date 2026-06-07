@@ -19,37 +19,37 @@ st.markdown("""
     #111827);
 }
 
-/* Semua teks menjadi putih */
+/* Semua teks menjadi hitam */
 html, body, p, h1, h2, h3, h4, h5, h6,
 label, span, div {
-    color: white !important;
+    color: black !important;
 }
 
 /* Markdown */
 [data-testid="stMarkdownContainer"] {
-    color: white !important;
+    color: black !important;
 }
 
 /* Sidebar */
 section[data-testid="stSidebar"] * {
-    color: white !important;
+    color: black !important;
 }
 
 /* Label input */
 .stSelectbox label,
 .stSlider label,
 .stNumberInput label {
-    color: white !important;
+    color: black !important;
     font-weight: bold;
 }
 
 /* Metric */
 [data-testid="stMetricLabel"] {
-    color: white !important;
+    color: black !important;
 }
 
 [data-testid="stMetricValue"] {
-    color: #38bdf8 !important;
+    color: #d62828 !important;
     font-weight: bold;
 }
 
@@ -61,7 +61,7 @@ section[data-testid="stSidebar"] * {
     border-radius:20px;
     border:1px solid rgba(255,255,255,0.2);
     margin-bottom:20px;
-    color:white;
+    color:black;
 }
 
 .card:hover{
