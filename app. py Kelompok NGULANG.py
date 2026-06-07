@@ -39,7 +39,11 @@ elif menu == "Uji Nyala":
         "Kalium (K)": "violet",
         "Kalsium (Ca)": "orange",
         "Tembaga (Cu)": "turquoise",
-        "Stronsium (Sr)": "red"
+        "Stronsium (Sr)": "red",
+        "Barium (Ba)": "silver",
+        "Litium (Li)": "merah crimsom",
+        "Rubidium (Rb)": "ungu merah",
+        "Sesium (Cs)": "emas perak"
     }
 
     penjelasan = {
