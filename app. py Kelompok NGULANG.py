@@ -146,7 +146,7 @@ elif menu == "Uji Nyala":
     "🔬 Rubidium memancarkan warna merah keunguan yang khas saat dipanaskan dalam nyala api.",
     "Sesium (Cs)":
     "🔬 Sesium menghasilkan warna biru keunguan yang jarang ditemukan pada uji nyala logam."
-})
+}
 
     if st.button("🔬 Mulai Uji Nyala"):
         st.success(f"✅ Warna nyala: **{warna_teks[logam]}**")
