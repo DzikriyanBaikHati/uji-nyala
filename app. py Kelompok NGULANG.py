@@ -32,7 +32,7 @@ if menu == "Beranda":
     Pada titik ini terjadi reaksi setara antara asam dan basa, ditandai oleh **indikator warna** atau perubahan pH.
     """)
 
-st.markdown("---")
+    st.markdown("---")
     st.info("Gunakan menu di sebelah kiri untuk mulai simulasi interaktif.")
 
 # --- Menu UJI NYALA ---
