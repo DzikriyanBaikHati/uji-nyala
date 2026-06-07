@@ -19,10 +19,7 @@ elif menu == "Uji Nyala":
 
     logam = st.selectbox("Pilih logam yang diuji:", [
         "Natrium (Na)", "Kalium (K)", "Kalsium (Ca)",
-        "Tembaga (Cu)", "Stronsium (Sr)","Barium (Ba)",
-        "Litium (Li)",
-        "Rubidium (Rb)",
-        "Sesium (Cs)"
+        "Tembaga (Cu)", "Stronsium (Sr)","Barium (Ba)","Litium (Li)","Rubidium (Rb)","Sesium (Cs)"
     ])
 
     warna_teks = {
@@ -30,10 +27,11 @@ elif menu == "Uji Nyala":
         "Kalium (K)": "Ungu muda",
         "Kalsium (Ca)": "Jingga",
         "Tembaga (Cu)": "Hijau kebiruan",
-        "Stronsium (Sr)": "Merah menyala"  "Barium (Ba)": "Hijau Apel",
-    "Litium (Li)": "Merah Crimson",
-    "Rubidium (Rb)": "Merah Ungu",
-    "Sesium (Cs)": "Biru Ungu"
+        "Stronsium (Sr)": "Merah menyala",
+        "Barium (Ba)": "Hijau Apel",
+        "Litium (Li)": "Merah Crimson",
+        "Rubidium (Rb)": "Merah Ungu",
+        "Sesium (Cs)": "Biru Ungu"
     }
 
     warna_api = {
