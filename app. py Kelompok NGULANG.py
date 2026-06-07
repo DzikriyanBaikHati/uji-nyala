@@ -114,10 +114,10 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "Jingga",
         "Tembaga (Cu)": "Hijau kebiruan",
         "Stronsium (Sr)": "Merah menyala"
-    "Barium (Ba)": "Hijau Apel",
-    "Litium (Li)": "Merah Crimson",
-    "Rubidium (Rb)": "Merah Ungu",
-    "Sesium (Cs)": "Biru Ungu"
+        "Barium (Ba)": "Hijau Apel",
+        "Litium (Li)": "Merah Crimson",
+        "Rubidium (Rb)": "Merah Ungu",
+        "Sesium (Cs)": "Biru Ungu"
 }
 
     warna_api = {
@@ -126,10 +126,10 @@ elif menu == "Uji Nyala":
         "Kalsium (Ca)": "orange",
         "Tembaga (Cu)": "turquoise",
         "Stronsium (Sr)": "red"
-    "Barium (Ba)": "#7CFC00",
-    "Litium (Li)": "#DC143C",
-    "Rubidium (Rb)": "#C71585",
-    "Sesium (Cs)": "#6A5ACD"
+        "Barium (Ba)": "#7CFC00",
+        "Litium (Li)": "#DC143C",
+        "Rubidium (Rb)": "#C71585",
+        "Sesium (Cs)": "#6A5ACD"
 }
 
     penjelasan = {
