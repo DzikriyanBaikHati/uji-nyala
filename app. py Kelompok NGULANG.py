@@ -8,10 +8,38 @@ menu = st.sidebar.selectbox(
 
 # --- Menu BERANDA ---
 if menu == "Beranda":
-    st.title("🔬 Selamat Datang di Aplikasi Kimia Interaktif")
-    st.subheader("🧪1A Kelompok 2") #
-    st.write("Silakan pilih menu di sebelah kiri untuk memulai.")
-    st.image("https://cdn.pixabay.com/photo/2020/03/17/03/32/laboratory-4936936_960_720.png", width=400)
+
+    st.markdown(
+        '<p class="main-title">🧪 CHEMLAB INTERACTIVE</p>',
+        unsafe_allow_html=True
+    )
+
+    st.markdown("""
+    <div class="card">
+    <h3>🔬 Kelompok 2 - Kimia Dasar</h3>
+
+    Aplikasi ini berisi simulasi:
+
+    • 🔥 Uji Nyala Logam
+
+    • ⚗️ Titrasi Asam Basa
+
+    • 📊 Visualisasi pH
+
+    • 🧪 Pembelajaran Kimia Interaktif
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.image(
+        "https://cdn.pixabay.com/photo/2020/03/17/03/32/laboratory-4936936_960_720.png",
+        use_container_width=True
+    )
+
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric("Eksperimen", "2")
+    col2.metric("Kelompok", "2")
+    col3.metric("Versi", "2.0")
 
 # --- Menu UJI NYALA ---
 elif menu == "Uji Nyala":
