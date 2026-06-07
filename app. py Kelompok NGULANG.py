@@ -24,7 +24,6 @@ if menu == "Beranda":
 
     • ⚗️ Titrasi Asam Basa
 
-    </div>
     """, unsafe_allow_html=True)
 
     st.image(
