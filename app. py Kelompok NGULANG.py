@@ -24,9 +24,6 @@ if menu == "Beranda":
 
     • ⚗️ Titrasi Asam Basa
 
-    • 📊 Visualisasi pH
-
-    • 🧪 Pembelajaran Kimia Interaktif
     </div>
     """, unsafe_allow_html=True)
 
