@@ -88,8 +88,8 @@ if menu == "Beranda":
     col1, col2, col3 = st.columns(3)
 
     col1.metric("Eksperimen", "2")
-    col2.metric("Kelompok", "2")
-    col3.metric("Versi", "2.0")
+    col2.metric("Kelompok", "2A")
+    col3.metric("Versi", "santai")
 
 # --- Menu UJI NYALA ---
 elif menu == "Uji Nyala":
