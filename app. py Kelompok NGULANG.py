@@ -69,7 +69,7 @@ if menu == "Beranda":
 
     st.markdown("""
     <div class="card">
-    <h3>🔬 2A LPK MENYENANGKAN - MARI LPK TERCINTA</h3>
+    <h3>🔬 2A LPK MENYENANGKAN - MARI BELAJAR LPK TERCINTA</h3>
 
     Aplikasi ini berisi simulasi:
 
@@ -176,7 +176,17 @@ elif menu == "Titrasi Asam Basa":
 
     st.markdown("""
 Titrasi asam-basa adalah metode untuk menentukan konsentrasi suatu larutan asam atau basa dengan menambahkan larutan penitrasi (basa atau asam yang telah diketahui konsentrasinya) hingga tercapai titik ekivalen.
+<div class="card">
 
+### 📋 Data Spektrum
+
+- Unsur : {logam}
+- Warna : {warna_teks[logam]}
+- Status : Aktif
+- Metode : Flame Test
+
+</div>
+""", unsafe_allow_html=True)
 **Rumus dasar:**
 > Ma × Va = Mb × Vb
 """)
