@@ -25,7 +25,7 @@ elif menu == "Uji Nyala":
     warna_teks = {
         "Natrium (Na)": "Kuning terang",
         "Kalium (K)": "Ungu muda",
-        "Kalsium (Ca)": "Jingga",
+        "Kalsium (Ca)": "Hitam",
         "Tembaga (Cu)": "Hijau kebiruan",
         "Stronsium (Sr)": "Merah menyala",
         "Barium (Ba)": "Hijau Apel",
