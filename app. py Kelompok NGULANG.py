@@ -148,26 +148,7 @@ Titrasi asam-basa adalah metode untuk menentukan konsentrasi suatu larutan asam 
     ph = round(ph, 1)
 
     st.metric("📊 pH Simulasi", f"{ph}")
-    fig = go.Figure()
-
-fig.add_trace(
-    go.Indicator(
-        mode="gauge+number",
-        value=ph,
-        title={'text':"Nilai pH"},
-        gauge={
-            'axis': {'range':[0,14]},
-            'bar': {'color':"darkblue"},
-            'steps':[
-                {'range':[0,7],'color':"lightcoral"},
-                {'range':[7,14],'color':"lightgreen"}
-            ]
-        }
-    )
-)
-
-st.plotly_chart(fig, use_container_width=True)
-
+  
     # Penjelasan otomatis
     if ph < 7:
         warna = "red"
