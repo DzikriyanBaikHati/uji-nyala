@@ -118,7 +118,7 @@ elif menu == "Uji Nyala":
         "Litium (Li)": "Merah Crimson",
         "Rubidium (Rb)": "Merah Ungu",
         "Sesium (Cs)": "Biru Ungu"
-}
+)
 
     warna_api = {
         "Natrium (Na)": "gold",
